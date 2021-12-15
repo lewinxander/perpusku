@@ -1,0 +1,7 @@
+{
+  "name": "perpus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
