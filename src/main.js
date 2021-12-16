@@ -24,6 +24,8 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import 'swiper/swiper.min.css'
+
 axios.defaults.baseURL = process.env.VUE_APP_BACKEND_URL
 
 const app = createApp(App)
