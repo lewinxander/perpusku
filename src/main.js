@@ -5,6 +5,8 @@ import router from './router';
 import { IonicVue } from '@ionic/vue';
 import axios from 'axios';
 
+import { createPinia } from 'pinia'
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
 
@@ -31,6 +33,7 @@ axios.defaults.baseURL = process.env.VUE_APP_BACKEND_URL
 const app = createApp(App)
   .use(IonicVue)
   .use(router)
+  .use(createPinia());
 
 router.isReady().then(() => {
   app.mount('#app');

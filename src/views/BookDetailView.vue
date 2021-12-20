@@ -13,7 +13,7 @@ import {
     toastController
 } from '@ionic/vue';
 import axios from 'axios';
-import BookDetail from '../components/books/BookDetail.vue';
+import BookDetail from '../components/BookDetail.vue';
 import { useBooks } from '../store';
 
 const route = useRoute()
